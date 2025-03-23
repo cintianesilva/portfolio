@@ -187,22 +187,27 @@
     <section class="contact" id="contact">
         
         <div class="input-box">
-            <h2 class="section-title">Contact Me</h2>
-            
-            <div class="input-data">
-                <div class="name-input">
-                    <input type="text" placeholder="Your name">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h2 class="section-title">Contact Me</h2>
+
+                <input type="hidden" name="access_key" value="40d3ca22-37cc-4d8d-984a-19985be9caa6">
+                
+                <div class="input-data">
+                    <div class="name-input">
+                        <input type="text" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="email-input">
+                        <input type="text" name="email" required placeholder="example@gmail.com">
+                    </div>
+                    <div class="message-input">
+                        <input type="text" name="message" required placeholder="Your message">
+                    </div>
                 </div>
-                <div class="email-input">
-                    <input type="text" placeholder="example@gmail.com">
-                </div>
-                <div class="message-input">
-                    <input type="text" placeholder="Your message">
-                </div>
-            </div>
-            <div class="btn">Submit</div>
+                <button class="submit-btn" type="submit">Submit</button>
+            </form>
         </div>
     </section>
+
 
     <footer>
         <ul>

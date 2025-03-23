@@ -488,7 +488,7 @@ footer ul li a{
 }
 
 
-@media(max-width:768px){
+@media(max-width:720px){
     header{
         gap: 1rem;
         padding: 1rem 1rem;
@@ -569,6 +569,103 @@ footer ul li a{
 
     header .logo{
         font-size: 1.5rem;
+    }
+
+    .language-btn{
+        position: fixed;
+        top: 80px;
+        right: 80px;
+        width: 80px;
+        height: 80px;
+        border: none;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .about img{
+        width: 60vw;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .input-box input{
+        padding: 0.5rem 3rem;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .input-box input::placeholder{
+        font-size: 1rem;
+    }
+
+    footer ul{
+        gap: 1rem;
+    }
+}
+
+@media(max-width:500px){
+    header #menu-icon{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 3rem;
+        display: none;
+    }
+
+    .nav-links li{
+        margin-top: 1.5rem;
+        padding: 1rem;
+    }
+
+    .nav-links.active{
+        display: block;
+    }
+
+    header{
+        padding: 1rem 5rem;
+        gap: 8rem;
+    }
+
+    header .logo{
+        font-size: 1.5rem;
+    }
+
+    .section-title{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+    }
+
+    .language-btn{
+        position: fixed;
+        top: 80px;
+        right: 80px;
+        width: 80px;
+        height: 80px;
+        border: none;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 100;
     }
 
     .about img{
