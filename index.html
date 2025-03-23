@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cintiane Silva - Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/73503564a9.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><span>Cintiane Silva</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">Sobre</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experiências</a>
+            </li>
+
+            <li>
+                <a href="#certifications">Certificações</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projetos</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contato</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://github.com/cintianesilva" target="_blank"><button class="visit-btn">Visitar Github</button></a>
+
+    </header>
+
+    <button class="language-btn" onclick="languageToggle()">
+        <i class="fa-solid fa-language"></i>
+    </button>
+    
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="images/img_cintiane.jpg">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Olá, eu sou</h3>
+                    <h1>Cintiane Silva</h1>
+                    <span>Suporte em TI</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn" ><a href="documentos/3.0 Cintiane.pdf" download="cintiane-cv">Baixar CV</a></div>
+                    <div class="btn"><a href="documentos/Cintiane Silva.png" download="cintiane-contato">Contato</a></div>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/cintianesilva" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/cintiane-silva/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experiência</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Suporte em TI</span>
+                    <h3>Janeiro de 2025 - atual</h3>
+                    <p>Atuo como suporte nível um em uma empresa que oferece serviços de identificação digital, reparos de impressoras de cartões e relógios de ponto.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Estagiária em TI</span>
+                    <h3>2 Anos</h3>
+                    <p>Auxílio na análise de erros e possíveis riscos nos variados sistemas de informação oferecidos a prefeituras clientes; apoio no planejamento e execução de testes; relatórios diários para a equipe de desenvolvimento.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Aprendiz em Ocupações Administrativas</span>
+                    <h3>1 ano e 6 meses</h3>
+                    <p>Atuei em setores como recepção, coordenação e secretaria, auxiliando em processos de captação de matrículas, organizando fichas escolares cobrança de pendências financeiras e outras tarefas similares.</p>
+                </div>
+            </div>
+            <!--<img src="images/image-experience.jpg">-->
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <h2 class="section-title">Certificações</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card-two">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Tecnólogo em Análise e Desenvolvimento de Sistemas</span>
+                    <h3>2022 - 2024</h3>
+                    <p>Curso de formação superior em Análise e Desenvolvimento de Sistemas.</p>
+                    <div class="btn-group-two">
+                        <div class="btn" ><a href="documentos/DiplomaDigital_ads.pdf" download="cintiane-cv">Baixar Certificado</a></div>
+                    </div>
+                </div>
+
+                <div class="grid-card-two">
+                    <i class="fa-solid fa-code"></i>
+                    <span>English C2 Proficient</span>
+                    <h3>Abril de 2024</h3>
+                    <p>Certificado de proficiência C2 na língua inglesa pela plataforma digital EF SET.</p>
+                    <div class="btn-group-two">
+                        <div class="btn" ><a href="documentos/EF SET Certificate - C2.pdf" download="certificado-inglês">Baixar Certificado</a></div>
+                    </div>
+                </div>
+
+                <div class="grid-card-two">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Power BI para Análise de Dados</span>
+                    <h3>Dezembro de 2024</h3>
+                    <p>Curso voltado para a área de análise de dados utilizando a ferramenta Power BI.</p>
+                    <div class="btn-group-two">
+                        <div class="btn" ><a href="documentos/Power BI para Análise de Dados.pdf" download="certificado-powerbi">Baixar Certificado</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projetos Recentes</h2>
+        <div class="projects-grid">
+            <div class="projects-card">
+                <img src="images/image-project-x.png">
+                <h3>Text to Speech Converter</h3>
+                <p>Projeto que converte texto em audio, podendo selecionar mais de dez opções de idiomas disponíveis.</p>
+                <div class="btn-group">
+                    <a href="https://cintianesilva.github.io/text-to-voice/" target="_blank">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/cintianesilva/text-to-voice" target="_blank">
+                        <div class="btn">Repositório Github</div>
+                    </a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <img src="images/image-project-y.jpg">
+                <h3>Previsão do tempo</h3>
+                <p>Projeto front-end de um site para previsão do tempo, podendo selecionar qualquer localidade para verificar sua previsão do tempo, humidade e velocidade do vento</p>
+                <div class="btn-group">
+                    <a href="https://cintianesilva.github.io/weather-app/" target="_blank">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/cintianesilva/weather-app" target="_blank">
+                        <div class="btn">Repositório Github</div>
+                    </a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <img src="images/image-project-z.jpg">
+                <h3>Jogo de Dados</h3>
+                <p>Projeto simples para simular dois dados sendo jogados e definir um ganhador para cada partida.</p>
+                <div class="btn-group">
+                    <a href="https://cintianesilva.github.io/dice-game/" target="_blank">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/cintianesilva/dice-game" target="_blank">
+                        <div class="btn">Repositório Github</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        
+        <div class="input-box">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h2 class="section-title">Entre em Contato</h2>
+
+                <input type="hidden" name="access_key" value="40d3ca22-37cc-4d8d-984a-19985be9caa6">
+                
+                <div class="input-data">
+                    <div class="name-input">
+                        <input type="text" name="name" required placeholder="Seu nome">
+                    </div>
+                    <div class="email-input">
+                        <input type="text" name="email" required placeholder="exemplo@gmail.com">
+                    </div>
+                    <div class="message-input">
+                        <input type="text" name="message" required placeholder="Sua mensagem">
+                    </div>
+                </div>
+                <button class="submit-btn" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">Sobre</a>
+            </li>
+            <li>
+                <a href="#experience">Experiência</a>
+            </li>
+            <li>
+                <a href="#certifications">Certificações</a>
+            </li>
+            <li>
+                <a href="#projects">Projetos</a>
+            </li>
+            <li>
+                <a href="#contact">Contato</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        function languageToggle() {
+            console.log("Botão de idioma clicado!")
+            window.location.href = "index-en.html";
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

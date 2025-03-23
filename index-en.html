@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cintiane Silva - Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/73503564a9.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><span>Cintiane Silva</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#certifications">Certifications</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://github.com/cintianesilva" target="_blank"><button class="visit-btn">Visit Github</button></a>
+
+    </header>
+
+    <button class="language-btn" onclick="languageToggle()">
+        <i class="fa-solid fa-language"></i>
+    </button>
+    
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="images/img_cintiane.jpg">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Cintiane Silva</h1>
+                    <span>IT Support Specialist</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn" ><a href="documentos/3.0 Cintiane.pdf" download="cintiane-cv">Download CV</a></div>
+                    <div class="btn"><a href="documentos/Cintiane Silva.png" download="cintiane-contato">Contact</a></div>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/cintianesilva" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/cintiane-silva/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>IT Support Specialist</span>
+                    <h3>January, 2025 - Present</h3>
+                    <p>I currently work as a level one IT support specialist in a company that offers digital identification services, card printer repairs, and the production of personalized card designs.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>IT Intern</span>
+                    <h3>2 Years</h3>
+                    <p>Risk prevention of various sistems offered by the company to clients, help with planning and execution of tests and daily error analysis report to developing team.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Administration Apprentice</span>
+                    <h3>1 Year 6 Months</h3>
+                    <p>Risk prevention of various systems offered by the company to clients, assisting with planning and execution of tests, and providing daily error analysis reports to the development team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <h2 class="section-title">Certifications</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card-two">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Technologist in Systems Analysis and Development</span>
+                    <h3>2022 - 2024</h3>
+                    <p>Higher Education Program in Systems Analysis and Development</p>
+                    <div class="btn-group-two">
+                        <div class="btn" ><a href="documentos/DiplomaDigital_ads.pdf" download="cintiane-cv">Download Certification</a></div>
+                    </div>
+                </div>
+
+                <div class="grid-card-two">
+                    <i class="fa-solid fa-code"></i>
+                    <span>English C2 Proficient</span>
+                    <h3>April, 2024</h3>
+                    <p>ET SET certification in C2 Proficient Level english</p>
+                    <div class="btn-group-two">
+                        <div class="btn" ><a href="documentos/EF SET Certificate - C2.pdf" download="certificado-inglês">Download Certification</a></div>
+                    </div>
+                </div>
+
+                <div class="grid-card-two">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Data Analysis with Power BI</span>
+                    <h3>December, 2024</h3>
+                    <p>Data Analysis course with Power BI</p>
+                    <div class="btn-group-two">
+                        <div class="btn" ><a href="documentos/Power BI para Análise de Dados.pdf" download="certificado-powerbi">Download Certificado</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="projects-card">
+                <img src="images/image-project-x.png">
+                <h3>Text to Speech Converter</h3>
+                <p>A text to speech converter project with more than ten languages available.</p>
+                <div class="btn-group">
+                    <a href="https://cintianesilva.github.io/text-to-voice/" target="_blank">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/cintianesilva/text-to-voice" target="_blank">
+                        <div class="btn">Git Repo</div>
+                    </a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <img src="images/image-project-y.jpg">
+                <h3>Weather App</h3>
+                <p>Weather app project that shows information such as temperature, humidity and wind speed.</p>
+                <div class="btn-group">
+                    <a href="https://cintianesilva.github.io/weather-app/" target="_blank">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/cintianesilva/weather-app" target="_blank">
+                        <div class="btn">Git Repo</div>
+                    </a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <img src="images/image-project-z.jpg">
+                <h3>Dice Game</h3>
+                <p>A simple virtual dice game that randomly chooses a winner between two players</p>
+                <div class="btn-group">
+                    <a href="https://cintianesilva.github.io/dice-game/" target="_blank">
+                        <div class="btn">Live Demo</div>
+                    </a>
+                    <a href="https://github.com/cintianesilva/dice-game" target="_blank">
+                        <div class="btn">Github Repo</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+            
+            <div class="input-data">
+                <div class="name-input">
+                    <input type="text" placeholder="Your name">
+                </div>
+                <div class="email-input">
+                    <input type="text" placeholder="example@gmail.com">
+                </div>
+                <div class="message-input">
+                    <input type="text" placeholder="Your message">
+                </div>
+            </div>
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#certifications">Certifications</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        function languageToggle() {
+            console.log("Botão de idioma clicado!")
+            window.location.href = "index.html";
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
